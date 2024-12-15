@@ -1,0 +1,94 @@
+.footer_container{
+    width:100%;
+    height:auto;
+    background-color: rgb(43, 92, 92);
+}
+.footer_main_container{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.BestSeller_container{
+    color:white;
+    width:300px;
+    height:auto;
+    margin:10px;
+}
+.BestSeller_container>h2{
+     color:white;
+     text-shadow: 2px 2px 2px black;
+     font-size:18px;
+}
+.BestSeller_container>p{
+    margin-bottom: -10px;
+}
+.BestSeller_container>p>a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.BestSeller_container>p>a:hover{
+    background-color: rgb(46, 44, 45);
+    padding:4px;
+    border-radius:3px;
+    color:white
+}
+.BestSeller_Signup_container{
+    color:white;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.BestSeller_Signup_container>p>a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+
+}
+.BestSeller_Signup_container>p>a:hover{
+    background-color: rgb(204, 38, 135);
+    padding:4px;
+    border-radius:3px;
+}
+.BestSeller_Signup_container>p{
+    margin-right:10px;
+}
+.youtube{
+    width:25px;
+    height:20px;
+    border-radius: 2px;
+    margin-right:7px;
+}
+.twiter{
+    width:25px;
+    height:20px;
+    border-radius: 2px;
+    margin-right:7px;
+}
+.linkedin{
+    width:25px;
+    height:20px;
+    border-radius: 2px;
+    margin-right:7px;
+}
+.facebook{
+    width:25px;
+    height:20px;
+    border-radius: 2px;
+    margin-right:7px;
+}
+.instra{
+    width:25px;
+    height:20px;
+    border-radius: 2px;
+    margin-right:7px;
+}

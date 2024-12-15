@@ -1,0 +1,123 @@
+.home_container{
+    height:100vh;
+    width:100vw;
+}
+.best_sellers{
+    font-size: 18px;
+    text-shadow: 2px 2px 2px black;
+    color:greenyellowl;
+    background-color: rgb(116, 121, 121);
+}
+
+.product_container{
+    display:flex;
+    padding:5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+.product_details_container{
+    height:auto;
+    width:300px;
+    margin:5px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+
+.product_image{
+    width:100% !important;
+    height:350px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+   
+    display:flex;
+    padding:8px;
+
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.best{
+    text-decoration: none;
+    background-color: rgb(236, 179, 21);
+    font-size:11px;
+    color:white;
+    padding:4px;
+    
+}
+.discount{
+    text-decoration: none;
+    background-color: rgb(54, 167, 201);
+    font-size:12px;
+    color:white;
+    padding:4px;
+    
+}
+
+.product_name{
+    font-size:12px;
+    color:#8a8a5c;
+   
+    
+}
+.perfume_detail{
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -10px;
+   
+}
+
+.star_div{
+    display:flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:-25px;
+    font-size: 12px;
+    
+}
+
+.star_div>img{
+    width:13px;
+    height:13px;
+    margin-bottom:4px;
+    margin-right: 4px;
+
+}
+.star{
+    width:20px;
+    height:20px;
+}
+
+.add_to_cart{
+    background-color: black;
+    color:white;
+    padding:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add_to_cart>a{
+    text-decoration: none;
+    color:white;
+    
+}
+.price_container{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    color:rgb(46, 44, 44)
+}
+
+.price{
+    font-weight: bold;
+    margin-right: 7px;
+}
+del{
+    font-size:15px;
+    color:rgb(102, 99, 99)
+}

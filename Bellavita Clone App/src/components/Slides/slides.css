@@ -1,0 +1,110 @@
+.slides_main_container{
+    display:flex;
+    align-items: center;
+}
+.slides_container{
+    min-height: 550px;
+    max-height:550px;
+    flex:12;
+    background-size:cover;
+    background-position:relative;
+    background-repeat: repeat-x; /* Repeat the background image horizontally */
+    background-size: cover; /* Make sure the image covers the entire element */
+    animation: moveBackground 10s linear infinite
+   
+}
+.empty-div{
+    flex:0;
+}
+#slide-1{
+    background-image:url( "../../assets/PerfumeImage/Image1.webp")
+}
+#slide-2{
+    background-image:url( "../../assets/PerfumeImage/Image2.jpg")
+}
+
+#slide-3{
+    background-image:url( "../../assets/PerfumeImage/Image3.jpg")
+}
+
+#slide-4{
+    background-image:url( "../../assets/PerfumeImage/Image4.jpg")
+
+}
+
+#slide-5{
+    background-image:url( "../../assets/PerfumeImage/Image5.jpg")
+}
+
+#slide-6{
+    background-image:url( "../../assets/PerfumeImage/Image6.jpg")
+}
+
+#slide-7{
+    background-image:url( "../../assets/PerfumeImage/Image7.jpg")
+}
+
+#slide-8{
+    background-image:url("../../assets/PerfumeImage/Image8.jpg")
+}
+.shopnow_container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    padding:5px;
+}
+.shop_container>p{
+   color:#00cccc;
+   font-size: 30px;
+   font-weight: 600;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-shadow:2px 2px 2px black;
+   text-overflow: hidden;
+   
+}
+
+.shop_container>a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size:22px;
+    background-color:red;
+    border-radius: 1px;
+    padding:3px;
+
+}
+.shop_container>a:hover{
+    background-color:rgb(150, 240, 15);
+    color:white;
+    border-radius:1px;
+    padding:4px;
+    font-size:22px;
+    text-shadow: 2px 2px 2px black;
+}
+.char{
+    text-decoration: none;
+    text-align:center;
+    color:white !important;
+    font-weight: bold;
+    font-size:20px !important;
+    background-color:rgb(80, 45, 207);
+    border-radius: 1px;
+    padding:3px;
+    margin-bottom:8px !important;
+    width:120px;
+}
+
+
+
+@keyframes moveBackground {
+  0% {
+    background-position: 100% 0; /* Start from the right */
+  }
+  100% {
+    background-position: 0 0; /* End at the left */
+  }
+}
+
+

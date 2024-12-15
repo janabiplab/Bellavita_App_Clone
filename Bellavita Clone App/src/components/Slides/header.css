@@ -1,0 +1,91 @@
+.header{
+    width:100%;
+    height:auto;
+    padding:8px;
+}
+
+.header:hover{
+    background-image: linear-gradient(45deg,rgb(65, 61, 61),rgb(105, 99, 99));
+}
+
+.search_name_container{
+    display:flex;
+    align-items: center;
+    padding:5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.search{
+    
+    display: flex;
+    align-items: center;
+    background-color:white;
+    border-radius:10px;
+    padding:2px;
+}
+.search>img{
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+   
+}
+.search>input{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.app_name{
+    
+    display:flex;
+    justify-content: center;
+}
+.app_name>p{
+    font-size: 20px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.userimage>img{
+    width: 30px;
+    height:30px;
+    border-radius: 20px;
+}
+
+.sign_up>button{
+     font-size:12px;
+     border:none;
+     background-color: none;
+     border-radius:2px;
+     cursor:pointer;
+     padding:1px;
+     
+}
+.sign_up>button:hover{
+    background-color: rgb(39, 196, 143);
+}
+
+.all_items{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.all_items>a{
+    color:white;
+    font-size: .7rem;
+    margin-left: 4px;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (max-width:600px){
+    .userimage{
+        display:none;
+    }
+}
